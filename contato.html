@@ -12,7 +12,7 @@
 
   <header class="site-header">
     <div class="header-inner">
-      <a class="brand" href="index.html">Café <span>da Claudinha</span></a>
+      <a class="brand" href="index.html"><span class="brand-top">Cafeteria artesanal · Centro</span>Café <em>da Claudinha</em></a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">☰</button>
       <nav class="main-nav" id="menu-principal" aria-label="Navegação principal">
         <ul>
@@ -27,30 +27,39 @@
   <main id="conteudo">
     <section class="section" aria-labelledby="titulo-contato">
       <div class="container">
-        <h1 class="section-title" id="titulo-contato">Contato</h1>
-        <p class="section-subtitle">Visite-nos ou envie uma mensagem</p>
+        <div class="section-head">
+          <p class="section-index">03 — Visite ou escreva</p>
+          <h1 class="section-title" id="titulo-contato">Contato</h1>
+          <p class="section-subtitle">Visite-nos ou envie uma mensagem</p>
+        </div>
 
         <div class="contact-grid">
           <section class="contact-info" aria-labelledby="titulo-info">
+            <p class="kicker">Onde nos encontrar</p>
             <h2 id="titulo-info">Informações</h2>
-            <dl>
+            <dl class="ledger">
               <div>
-                <dt>Endereço</dt>
-                <dd>Rua das Flores, 123 — Centro</dd>
+                <span class="num" aria-hidden="true">01</span>
+                <div><dt>Endereço</dt>
+                <dd>Rua das Flores, 123 — Centro</dd></div>
               </div>
               <div>
-                <dt>Telefone</dt>
-                <dd>(47) 3333-3333</dd>
+                <span class="num" aria-hidden="true">02</span>
+                <div><dt>Telefone</dt>
+                <dd>(47) 3333-3333</dd></div>
               </div>
               <div>
-                <dt>Horário de funcionamento</dt>
-                <dd>Segunda a sábado, das 08:00 às 19:00</dd>
+                <span class="num" aria-hidden="true">03</span>
+                <div><dt>Horário de funcionamento</dt>
+                <dd>Segunda a sábado, das 08:00 às 19:00</dd></div>
               </div>
             </dl>
           </section>
 
           <section class="contact-form-wrap" aria-labelledby="titulo-form">
+            <p class="kicker">Recado para a casa</p>
             <h2 id="titulo-form">Envie uma mensagem</h2>
+            <p class="form-hint">Respondemos em horário de funcionamento.</p>
             <form id="contact-form" novalidate>
               <div class="form-group">
                 <label for="nome">Nome</label>

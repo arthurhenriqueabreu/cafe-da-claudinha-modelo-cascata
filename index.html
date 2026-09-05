@@ -12,7 +12,7 @@
 
   <header class="site-header">
     <div class="header-inner">
-      <a class="brand" href="index.html">Café <span>da Claudinha</span></a>
+      <a class="brand" href="index.html"><span class="brand-top">Cafeteria artesanal · Centro</span>Café <em>da Claudinha</em></a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">☰</button>
       <nav class="main-nav" id="menu-principal" aria-label="Navegação principal">
         <ul>
@@ -29,34 +29,55 @@
     <section class="hero" aria-labelledby="titulo-hero">
       <div class="hero-inner">
         <div class="hero-text">
-          <h1 id="titulo-hero">Bem-vindo ao Café da Claudinha</h1>
-          <p>Um espaço agradável para aproveitar um bom café e conhecer nosso cardápio.</p>
-          <a class="btn" href="cardapio.html">Ver Cardápio</a>
+          <p class="kicker">Nº 01 — Cafeteria artesanal · Centro</p>
+          <h1 id="titulo-hero">Bem-vindo ao Café <em>da Claudinha</em></h1>
+          <p class="lede">Um espaço agradável para aproveitar um bom café e conhecer nosso cardápio.</p>
+          <div class="hero-actions">
+            <a class="btn" href="cardapio.html">Ver Cardápio</a>
+          </div>
+          <p class="hero-meta"><span><strong>Horário</strong>Seg a sáb · 08–19</span><span><strong>Onde</strong>Rua das Flores, 123</span></p>
         </div>
-        <div class="hero-image">
-          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=900&q=80&auto=format&fit=crop" alt="Xícara de café sobre mesa de madeira em cafeteria aconchegante" width="900" height="675" loading="eager">
-        </div>
+        <figure class="hero-figure">
+          <span class="hero-stamp" aria-hidden="true">Desde o bairro</span>
+          <span class="hero-vertical" aria-hidden="true">café · prosa · quitanda</span>
+          <div class="frame">
+            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=900&q=80&auto=format&fit=crop" alt="Xícara de café sobre mesa de madeira em cafeteria aconchegante" width="900" height="1125" loading="eager">
+          </div>
+          <figcaption><span>Espresso da casa, na mesa de madeira.</span><span>— foto 01</span></figcaption>
+        </figure>
       </div>
     </section>
 
     <!-- SEÇÃO INSTITUCIONAL (RF01) -->
-    <section class="section" aria-labelledby="titulo-sobre">
+    <section class="section section--ruled" aria-labelledby="titulo-sobre">
       <div class="container">
-        <h2 class="section-title" id="titulo-sobre">Nossa cafeteria</h2>
-        <p class="section-subtitle">Um cantinho simples e acolhedor no centro da cidade</p>
-        <div class="card-light">
-          <p>O <strong>Café da Claudinha</strong> é uma pequena cafeteria de bairro que oferece cafés tradicionais, pães e doces caseiros. Prezamos por um atendimento atencioso, um ambiente tranquilo e produtos fresquinhos todos os dias.</p>
-          <p>Aberto de segunda a sábado, o café é um ponto de encontro para quem quer começar bem o dia, fazer uma pausa à tarde ou conversar com amigos.</p>
-          <div class="two-columns">
-            <div class="info-box">
-              <h3>O que servimos</h3>
-              <p>Cafés clássicos, como espresso, cappuccino e café com leite, além de pão de queijo, croissant e bolo do dia.</p>
-            </div>
-            <div class="info-box">
-              <h3>Onde estamos</h3>
-              <p>Rua das Flores, 123 — Centro.<br>Segunda a sábado, das 08:00 às 19:00.</p>
-            </div>
+        <div class="section-head">
+          <p class="section-index">01 — A casa</p>
+          <h2 class="section-title" id="titulo-sobre">Nossa cafeteria</h2>
+          <p class="section-subtitle">Um cantinho simples e acolhedor no centro da cidade</p>
+        </div>
+        <div class="editorial-grid">
+          <div class="prose">
+            <p class="dropcap">O <strong>Café da Claudinha</strong> é uma pequena cafeteria de bairro que oferece cafés tradicionais, pães e doces caseiros. Prezamos por um atendimento atencioso, um ambiente tranquilo e produtos fresquinhos todos os dias.</p>
+            <p>Aberto de segunda a sábado, o café é um ponto de encontro para quem quer começar bem o dia, fazer uma pausa à tarde ou conversar com amigos.</p>
+            <p class="pull">Café passado com calma, quitanda saindo do forno.</p>
           </div>
+          <ul class="ruled-list">
+            <li>
+              <span class="num" aria-hidden="true">i.</span>
+              <div>
+                <h3>O que servimos</h3>
+                <p>Cafés clássicos, como espresso, cappuccino e café com leite, além de pão de queijo, croissant e bolo do dia.</p>
+              </div>
+            </li>
+            <li>
+              <span class="num" aria-hidden="true">ii.</span>
+              <div>
+                <h3>Onde estamos</h3>
+                <p>Rua das Flores, 123 — Centro.<br>Segunda a sábado, das 08:00 às 19:00.</p>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
